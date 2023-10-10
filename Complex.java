@@ -20,7 +20,7 @@ class ComplexNumber {
     }
     
     public ComplexNumber plus(final ComplexNumber other) {
-        return null;
+        return new ComplexNumber(this.real + other.getReal(), this.imaginary + other.getImaginary());
     }
     
     public ComplexNumber sub(final ComplexNumber other) {
