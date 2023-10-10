@@ -8,7 +8,7 @@ class ComplexNumber {
     }
 
     public void main(){
-        
+        System.out.println(4+8l);
     }
 
     public double getImaginary() {
