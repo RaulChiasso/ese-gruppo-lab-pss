@@ -14,6 +14,11 @@ class ComplexNumber {
         ComplexNumber a = new ComplexNumber(2, 3);
         a=a.plus(new ComplexNumber(4,6));
         System.out.println(a.getReal() + "+" + a.getImaginary() + "i");
+
+        //test sottrazione
+        ComplexNumber b = new ComplexNumber(4, 5);
+        b=b.sub(new ComplexNumber(2,3));
+        System.out.println(b.getReal() + "+" + b.getImaginary() + "i");
     }
 
     public double getImaginary() {
