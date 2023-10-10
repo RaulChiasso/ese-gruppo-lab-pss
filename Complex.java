@@ -8,7 +8,7 @@ class ComplexNumber {
     }
 
     public void main(){
-        
+        System.out.println(4+8l);
     }
 
     public double getImaginary() {
@@ -16,7 +16,7 @@ class ComplexNumber {
     }
 
     public double getReal() {
-        return 0;
+        return this.real;
     }
     
     public ComplexNumber plus(final ComplexNumber other) {
