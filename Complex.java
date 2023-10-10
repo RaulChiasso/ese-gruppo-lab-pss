@@ -23,7 +23,7 @@ class ComplexNumber {
         //test times
         ComplexNumber c = new ComplexNumber(2, 3);
         c=c.times(new ComplexNumber(4,6));
-        System.out.println(a.getReal() + "+" + a.getImaginary() + "i");
+        System.out.println(c.getReal() + "+" + c.getImaginary() + "i");
     }
 
     public double getImaginary() {
