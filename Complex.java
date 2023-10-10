@@ -14,7 +14,6 @@ class ComplexNumber {
         ComplexNumber a = new ComplexNumber(2, 3);
         a=a.plus(new ComplexNumber(4,6));
         System.out.println(a.getReal() + "+" + a.getImaginary() + "i");
-
     }
 
     public double getImaginary() {
