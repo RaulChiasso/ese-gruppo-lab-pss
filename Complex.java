@@ -7,8 +7,12 @@ class ComplexNumber {
         this.imaginary = imaginary;
     }
 
+    public void main(){
+        
+    }
+
     public double getImaginary() {
-        return 0;
+        return this.imaginary;
     }
 
     public double getReal() {
