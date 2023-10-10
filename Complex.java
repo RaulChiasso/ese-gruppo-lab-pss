@@ -29,7 +29,7 @@ class ComplexNumber {
     }
     
     public ComplexNumber sub(final ComplexNumber other) {
-        return null;
+        return new ComplexNumber(this.real - other.getReal(), this.imaginary - other.getImaginary());
     }
 
     public ComplexNumber times(final ComplexNumber other) {
