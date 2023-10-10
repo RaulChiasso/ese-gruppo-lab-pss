@@ -19,6 +19,11 @@ class ComplexNumber {
         ComplexNumber b = new ComplexNumber(4, 5);
         b=b.sub(new ComplexNumber(2,3));
         System.out.println(b.getReal() + "+" + b.getImaginary() + "i");
+
+        //test times
+        ComplexNumber c = new ComplexNumber(2, 3);
+        c=c.times(new ComplexNumber(4,6));
+        System.out.println(a.getReal() + "+" + a.getImaginary() + "i");
     }
 
     public double getImaginary() {
